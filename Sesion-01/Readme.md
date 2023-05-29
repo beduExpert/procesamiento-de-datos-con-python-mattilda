@@ -47,9 +47,12 @@ nombre_de_variable = valor
 
 ---
 
-<ins>Operaciones numéricas</ins>
+### <ins>Operaciones numéricas</ins>
 
-Hemos estado asignando números a variables. En Python podemos realizar operaciones matemáticas de una forma muy sencilla. Simplemente tenemos que usar los `operadores aritméticos` que ya conocemos para hacer operaciones entre las variables que hayamos definido previamente. Los operadores aritméticos en Python son los siguientes:
+<img src="https://www.creativefabrica.com/wp-content/uploads/2021/01/07/arithmetic-operator-vector-icon-Graphics-7631157-1.jpg" align="right" width="30%" hspace=10px>
+
+
+Hemos estado asignando números a variables. En **Python** podemos realizar operaciones matemáticas de una forma muy sencilla. Simplemente tenemos que usar los <u>operadores aritméticos</u> que ya conocemos para hacer operaciones entre las variables que hayamos definido previamente. Los operadores aritméticos en **Python** son los siguientes:
 
 - Suma: `+`
 - Resta: `-`
@@ -59,10 +62,8 @@ Hemos estado asignando números a variables. En Python podemos realizar operacio
 
 ¡Practiquemos con ellos!
 
-> Deje fuera división entera y módulo para no confundir a los alumnos. En el Ejemplo se va a usar la función `print`. No es necesario ahondar mucho en el tema, pero sí hay que mencionar la sintaxis básica de cómo llamar estas funciones. Se pueden usar los comandos de la terminal como referencia para que los alumnos tengan una analogía.
-
-[**`Ejemplo 3`**](Ejemplo-03/operaciones_numericas.ipynb)
-[**`Reto 2`**](Reto-02/operaciones_numericas.ipynb)
+- [**`Ejemplo 3`**](Ejemplo-03/operaciones_numericas.ipynb)
+- [**`Reto 2`**](Reto-02/operaciones_numericas.ipynb)
 
 ---
 
