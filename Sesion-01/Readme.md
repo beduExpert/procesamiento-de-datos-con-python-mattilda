@@ -16,33 +16,34 @@
 
 ### <ins><strong>Conociendo PyCharm</strong></ins>
 
-<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.pIi0CfGswG8JLy2f1w6dLQHaHa%26pid%3DApi&f=1&ipt=dc5ce13197d65c5c3ec3211fc9308c8ea281976d6ed92b5900e115ebe8b2619e&ipo=images" align="right" width="30%" hspace=10px>
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.pIi0CfGswG8JLy2f1w6dLQHaHa%26pid%3DApi&f=1&ipt=dc5ce13197d65c5c3ec3211fc9308c8ea281976d6ed92b5900e115ebe8b2619e&ipo=images" align="right" width="20%" hspace=10px>
 
-Ya hemos hablado sobre PyCharm en el Prework. En este ejemplo vamos a realizar un pequeño repaso para que te quede muy claro cómo aprovechar al máximo esta herramienta.
+Ya hemos hablado sobre **PyCharm** en el Prework. En este ejemplo vamos a realizar un pequeño repaso para que te quede muy claro cómo aprovechar al máximo esta herramienta.
 
----
-> 🌟 Es importante que hayas instalado previamente esta herramienta. Las instrucciones de instalación las pruedes encontrar por completo en el Prework.
----
+> 🌟 *Es importante que hayas instalado previamente esta herramienta. Las instrucciones de instalación las pruedes encontrar por completo en el Prework.*
 
 
 - [**`Ejemplo 1`**](Ejemplo-01/README.md)
 
 ---
 
-<ins>Variables en Python</ins>
+### <ins><strong>Variables en Python</strong></ins>
 
-En Python usamos `variables` para asignarles contenido que queremos utilizar después.
+<img src="https://i.imgur.com/6cg2E9Q.png" align="right" width="50%" hspace=10px>
 
-- La sintaxis es:
+En **Python** usamos <u>variables</u> para asignarles valores que podemos usar después a lo largo de todo nuestro programa.
 
-`nombre_de_variable = valor`
+La sintaxis, para definir variables es la siguiente:
 
-`valor` puede ser muchas cosas, que ya iremos aprendiendo poco a poco.
+```python
+nombre_de_variable = valor
+```
 
-> Me parece muy importante hablar sobre la convención de nombramiento en Python: todas las variables y nombres de funciones se escriben en camel_case, sin excepciones. No es necesario mencionar la convención para clases en este momento, ya que ese tema no se tocará en este módulo.
+`valor` puede llenarse con muchos posibles valores. Ya iremos aprendiendo poco a poco cuáles son estos.
 
-[**`Ejemplo 2`**](Ejemplo-02/variables.ipynb)
-[**`Reto 1`**](Reto-01/variables.ipynb)
+
+- [**`Ejemplo 2`**](Ejemplo-02/variables.ipynb)
+- [**`Reto 1`**](Reto-01/variables.ipynb)
 
 ---
 
