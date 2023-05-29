@@ -63,7 +63,7 @@ Hemos estado asignando números a variables. En **Python** podemos realizar oper
 ¡Practiquemos con ellos!
 
 - [**`Ejemplo 3`**](Ejemplo-03/README.md)
-- [**`Reto 2`**](Reto-02/operaciones_numericas.ipynb)
+- [**`Reto 2`**](Reto-02/README.md)
 
 ---
 

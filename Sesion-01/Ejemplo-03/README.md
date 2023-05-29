@@ -48,6 +48,6 @@
 
 ¡Hola de prácticar! Descarga el *script* anterior [**aquí**](codigo/main.py).
 
-[`Anterior`](../Readme.md) | [`Siguiente`](../Readme.md)
+[`Anterior`](../Readme.md) | [`Siguiente`](../Reto-02/README.md)
 
 </div>
