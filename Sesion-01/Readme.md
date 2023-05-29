@@ -42,7 +42,7 @@ nombre_de_variable = valor
 `valor` puede llenarse con muchos posibles valores. Ya iremos aprendiendo poco a poco cuáles son estos.
 
 
-- [**`Ejemplo 2`**](Ejemplo-02/variables.ipynb)
+- [**`Ejemplo 2`**](Ejemplo-02/README.md)
 - [**`Reto 1`**](Reto-01/variables.ipynb)
 
 ---

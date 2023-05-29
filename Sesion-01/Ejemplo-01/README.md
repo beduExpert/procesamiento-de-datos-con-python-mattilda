@@ -40,7 +40,21 @@
 
     ![imagen](images/04.png)
 
-**¡Felicidades! Has ejecutado tu primer *script* de Python**
+1. En muchas ocasiones, además de cargar *scripts* también será necesario que interactúes con el intérprete de **Python**. Un intérprete es una especie de calculadora donde tu pones comandos y te genera una salida. Profundizaremos en esto más adelante, para abrir el intérprete debes presionar el siguiente botón *Python console* del menú inferior izquierdo.
+
+    ![imaten](images/05.png)
+
+1. Juguemos con el intérprete. Una vez abierto, prueba teclear:
+
+    ```python
+    print("¡Hola Mundo!")
+    ```
+
+    y presiona la tecla `Intro`. Obtendrás la siguiente salida:
+
+    ![imagen](images/06.png)
+
+**¡Felicidades! Has ejecutado tu primer *script* de Python y conocido el uso del intérprete.**
 
 Aprenderemos a lo largo de estas sesiones definir tus propios *scripts*.
 
