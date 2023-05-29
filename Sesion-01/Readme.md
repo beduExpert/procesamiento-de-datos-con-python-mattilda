@@ -16,7 +16,7 @@
 
 ### <ins><strong>Conociendo PyCharm</strong></ins>
 
-<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.pIi0CfGswG8JLy2f1w6dLQHaHa%26pid%3DApi&f=1&ipt=dc5ce13197d65c5c3ec3211fc9308c8ea281976d6ed92b5900e115ebe8b2619e&ipo=images" align="right" width="20%" hspace=10px>
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.pIi0CfGswG8JLy2f1w6dLQHaHa%26pid%3DApi&f=1&ipt=dc5ce13197d65c5c3ec3211fc9308c8ea281976d6ed92b5900e115ebe8b2619e&ipo=images" align="right" width="15%" hspace=10px>
 
 Ya hemos hablado sobre **PyCharm** en el Prework. En este ejemplo vamos a realizar un pequeño repaso para que te quede muy claro cómo aprovechar al máximo esta herramienta.
 
@@ -43,7 +43,7 @@ nombre_de_variable = valor
 
 
 - [**`Ejemplo 2`**](Ejemplo-02/README.md)
-- [**`Reto 1`**](Reto-01/variables.ipynb)
+- [**`Reto 1`**](Reto-01/README.md)
 
 ---
 
