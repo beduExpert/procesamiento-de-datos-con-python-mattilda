@@ -1,29 +1,31 @@
 
-## Sesión 01: Fundamentos de Python
+# Sesión 01: Fundamentos de Python
 
-### 1. Objetivos
+<img src="https://raw.githubusercontent.com/beduExpert/Introduccion-a-Bases-de-Datos-Diciembre-2020/master/imagenes/pizarron.png" align="right" height="100" width="100" hspace="10">
+<div style="text-align: justify;">
+
+## 1. Objetivos
 
 1. Asignar variables, operadores matemáticos y tipos de datos.
 2. Realizar interpolación de Strings.
 3. Realizar comparaciones y estructuras de control de flujo.
 
-### 2. Contenido
-
-<ins>Revisión de Software</ins>
-
-Asegurarse de que todos los alumnos hayan instalado **PyCharm** con éxito. 
-
-También es necesario haber creado el Acceso Directo a los Datasets desde el Drive del alumno para poder utilizarlos a lo largo del módulo.
-
-> Todas las instrucciones están paso por paso en el Prework.
+## 2. Contenido
 
 ---
 
-<ins>PyCharm</ins>
+### <ins><strong>Conociendo PyCharm</strong></ins>
 
-Ya hablamos sobre PyCharme en el Prework. Vamos a hacer un pequeño repaso para que quede claro cómo aprovechar al máximo esta herramienta.
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.pIi0CfGswG8JLy2f1w6dLQHaHa%26pid%3DApi&f=1&ipt=dc5ce13197d65c5c3ec3211fc9308c8ea281976d6ed92b5900e115ebe8b2619e&ipo=images" align="right" width="30%" hspace=10px>
 
-[**`Ejemplo 1`**](Ejemplo-01/notebook_de_practica.ipynb)
+Ya hemos hablado sobre PyCharm en el Prework. En este ejemplo vamos a realizar un pequeño repaso para que te quede muy claro cómo aprovechar al máximo esta herramienta.
+
+---
+> 🌟 Es importante que hayas instalado previamente esta herramienta. Las instrucciones de instalación las pruedes encontrar por completo en el Prework.
+---
+
+
+- [**`Ejemplo 1`**](Ejemplo-01/README.md)
 
 ---
 
