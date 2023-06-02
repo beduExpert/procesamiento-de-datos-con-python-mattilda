@@ -1,7 +1,9 @@
+# Sesión 02: Estructuras de datos y funciones
 
-## Sesión 02: Estructuras de datos y funciones
+<img src="https://raw.githubusercontent.com/beduExpert/Introduccion-a-Bases-de-Datos-Diciembre-2020/master/imagenes/pizarron.png" align="right" height="100" width="100" hspace="10">
+<div style="text-align: justify;">
 
-### 1. Objetivos
+## 1. Objetivos
 
 1. Comprender la utilidad de las estructuras de datos para organizar información dentro de nuestros programas.
 2. Utilizar listas y diccionarios y entender las principales diferencias entre ellos.
@@ -11,20 +13,22 @@
 
 ---
 
-<ins>Listas</ins>
+### <ins>Listas</ins>
 
-Como vimos en el Prework, las listas son uno de los tipos de estructuras de datos que podemos utilizar en Python. Una estructura de datos nos sirve para organizar datos y para optimizar el acceso, procesamiento y uso de éstos.
+<img src="https://programmathically.com/wp-content/uploads/2021/05/list.png" align="right" width="50%" hspace=10px>
+
+Como vimos en el Prework, las listas son uno de los tipos de estructuras de datos que podemos utilizar en **Python**. Una estructura de datos nos sirve para organizar datos y para optimizar el acceso, procesamiento y uso de éstos.
 
 Las listas son secuencias ordenadas de datos y se ven así:
 
-`lista_de_numeros = [1, 4, 7, 5, 3, 4, 6]`
+```python
+lista_de_numeros = [1, 4, 7, 5, 3, 4, 6]
+```
 
 Vayamos a un primer ejemplo para entender su funcionamiento.
 
-> Lo más importante de esta sección es que los alumnos entiendan bien el `operador de indexación`, ya que es muy similar al que se usa en `numpy` y en `pandas`.
-
-[**`Ejemplo 1`**](Ejemplo-01/listas.ipynb)
-[**`Reto 1`**](Reto-01/listas.ipynb)
+- [**`Ejemplo 1`**](Ejemplo-01/README.md)
+- [**`Reto 1`**](Reto-01/README.md)
 
 ---
 
