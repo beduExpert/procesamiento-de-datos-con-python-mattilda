@@ -34,7 +34,7 @@ Vayamos a un primer ejemplo para entender su funcionamiento.
 
 ### <ins>Modificando Listas</ins>
 
-<img src="https://i.pinimg.com/736x/65/d3/33/65d33376a75509a09641ff987fff5770.jpg" align="right" width="19%" hspace=10px>
+<img src="https://i.pinimg.com/736x/65/d3/33/65d33376a75509a09641ff987fff5770.jpg" align="right" width="18%" hspace=10px>
 
 Tenemos 2 métodos básicos para modificar listas:
 
