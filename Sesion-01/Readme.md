@@ -123,11 +123,13 @@ Veamos cómo funcionan.
 
 ---
 
-<ins>Estructuras de control de flujo</ins>
+### <ins>Estructuras de control de flujo</ins>
 
-Para finalizar, vamos a juntar todo lo que hemos aprendido el día de hoy y vamos a darle a nuestro programa la capacidad de tomar decisiones. Los programas tienen datos de entrada (inputs) y datos de salida (outputs). Varían sus outputs dependiendo del input que reciban. Para poder tomar decisiones, utilizan las llamadas `estructuras de control de flujo`. Que se ven así:
+<img src="https://www.programiz.com/sites/tutorial2program/files/python-if.png" align="right" width="50%" hspace=10px>
 
-```
+Para finalizar, vamos a juntar todo lo que hemos aprendido el día de hoy y vamos a darle a nuestro programa la capacidad de tomar decisiones. Los programas tienen datos de entrada (inputs) y datos de salida (outputs). Varían sus salidas dependiendo de las entradas que reciban. Para poder tomar decisiones, utilizan las llamadas estructuras de control de flujo. Que se ven así:
+
+```python
 if var_1 > var_2:
     print("OK")
 else:
@@ -136,10 +138,8 @@ else:
 
 Vamos a ver cómo funcionan.
 
-> Lo más importante de aclarar me parece que es la indentación de los bloques de las sentencias if. Se habló sobre ello en el Prework, pero es algo que puede ser confuso. Hay que mencionarlo repetidas veces para que los alumnos entiendan que lo que está indentado pertenece al bloque del if, y lo que no está indentando ya no pertenece.
-
-[**`Ejemplo 7`**](Ejemplo-07/estructuras_de_control_de_flujo.ipynb)
-[**`Reto 5`**](Reto-05/estructuras_de_control_de_flujo.ipynb)
+- [**`Ejemplo 7`**](Ejemplo-07/estructuras_de_control_de_flujo.ipynb)
+- [**`Reto 5`**](Reto-05/estructuras_de_control_de_flujo.ipynb)
 
 ---
 
