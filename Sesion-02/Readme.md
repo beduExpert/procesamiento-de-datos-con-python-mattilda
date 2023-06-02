@@ -56,8 +56,8 @@ Los diccionarios son nuestra segunda estructura de datos básica en Python. A di
 
 Veamos cómo crear y acceder diccionarios.
 
-- [**`Ejemplo 3`**](Ejemplo-03/diccionarios.ipynb)
-- [**`Reto 3`**](Reto-03/diccionarios.ipynb)
+- [**`Ejemplo 3`**](Ejemplo-03/README.md)
+- [**`Reto 3`**](Reto-03/README.md)
 
 ---
 
