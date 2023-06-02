@@ -1,4 +1,4 @@
-[`Procesamiento de datos con Python`](../../Readme.md) > [`Sesión 01`](../Readme.md) > `Ejemplo 1`
+[`Procesamiento de datos con Python`](../../Readme.md) > [`Sesión 02`](../Readme.md) > `Ejemplo 1`
 
 # Ejemplo 1: Listas 
 
@@ -90,7 +90,7 @@
     A pesar de que Python nos permite guardar diversos tipos de datos en una sola lista, aprendimos que la mejor práctica es evitar esto y guardar un solo tipo de dato por lista
 
     ¡Vayamos a nuestro primer reto!
-    
+
 
 [`Anterior`](../Readme.md) | [`Siguiente`](../Readme.md)
 
