@@ -32,7 +32,9 @@ Vayamos a un primer ejemplo para entender su funcionamiento.
 
 ---
 
-<ins>Modificando Listas</ins>
+### <ins>Modificando Listas</ins>
+
+<img src="https://i.pinimg.com/736x/65/d3/33/65d33376a75509a09641ff987fff5770.jpg" align="right" width="20%" hspace=10px>
 
 Tenemos 2 métodos básicos para modificar listas:
 
@@ -41,10 +43,8 @@ Tenemos 2 métodos básicos para modificar listas:
 
 Veámoslos en acción.
 
-> Aunque los métodos `append` y `pop` pocas veces son usados profesionalmente, es importante que los alumnos entiendan la noción de modificación de estructuras de datos, cómo se pueden agregar y eliminar elementos y los demás elementos se mantienen, aunque con diferente índice.
-
-[**`Ejemplo 2`**](Ejemplo-02/modificando_listas.ipynb)
-[**`Reto 2`**](Reto-02/modificando_listas.ipynb)
+- [**`Ejemplo 2`**](Ejemplo-02/modificando_listas.ipynb)
+- [**`Reto 2`**](Reto-02/modificando_listas.ipynb)
 
 ---
 
