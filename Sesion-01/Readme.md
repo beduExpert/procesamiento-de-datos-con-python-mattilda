@@ -86,7 +86,7 @@ Por el momento no importa si no entiendes para qué sirven las cadenas (strings)
 
 ### <ins>Interpolación de Strings</ins>
 
-<img src="https://favtutor.com/resources/images/uploads/mceu_73837422811670390560897.jpg" align="right" width="50%" hspace=10px>
+<img src="https://favtutor.com/resources/images/uploads/mceu_73837422811670390560897.jpg" align="right" width="40%" hspace=10px>
 
 Más adelante veremos que las cadenas pueden contener información muy relevante dentro de nuestros conjuntos de datos (como nombres de personas, descripciones de procesos, categorías, etc). Por lo pronto, vamos a utilizar nuestras cadenas para imprimir anotaciones en nuestras salidas. Queremos obtener resultados que se vean más o menos así:
 
