@@ -69,7 +69,7 @@ Hemos estado asignando números a variables. En **Python** podemos realizar oper
 
 ### <ins>Tipos de datos en Python</ins>
 
-<img src="https://thermomix.com.au/cdn/shop/products/thermomix-themix-shop-spice-jar-labels-food-storage-28905824485553_2048x2048.jpg?v=1628180747" align="right" width="30%" hspace=10px>
+<img src="https://thermomix.com.au/cdn/shop/products/thermomix-themix-shop-spice-jar-labels-food-storage-28905824485553_2048x2048.jpg?v=1628180747" align="right" width="25%" hspace=10px>
 
 Python tiene diferentes tipos de datos para representar diferentes cosas. Por el momento vamos a aprender los 4 básicos y esenciales:
 

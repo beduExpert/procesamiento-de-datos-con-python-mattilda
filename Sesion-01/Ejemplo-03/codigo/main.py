@@ -1,14 +1,31 @@
-var_1 = 4
-var_2 = 54
-var_3 = 23
-var_4 = 89
+# Este es un número entero
 
-print(var_1 + var_2)
-print(var_3 - var_4)
-print(var_4 / var_2)
-print(var_2 ** var_1)
+var_int = 4598
 
-resultado_suma = var_1 + var_3
-print(resultado_suma)
-resultado_resta = var_4 - var_2
-print(resultado_resta)
+print(var_int)
+print(type(var_int))
+print("\n")
+
+# Este es un número decimal
+
+var_float = 369.432
+
+print(var_float)
+print(type(var_float))
+print("\n")
+
+# Esta es una string
+
+var_string = "Soy una string"
+
+print(var_string)
+print(type(var_string))
+print("\n")
+
+# Este es un booleano
+
+var_bool = True
+
+print(var_bool)
+print(type(var_bool))
+print("\n")
