@@ -34,7 +34,7 @@ Vayamos a un primer ejemplo para entender su funcionamiento.
 
 ### <ins>Modificando Listas</ins>
 
-<img src="https://i.pinimg.com/736x/65/d3/33/65d33376a75509a09641ff987fff5770.jpg" align="right" width="20%" hspace=10px>
+<img src="https://i.pinimg.com/736x/65/d3/33/65d33376a75509a09641ff987fff5770.jpg" align="right" width="19%" hspace=10px>
 
 Tenemos 2 métodos básicos para modificar listas:
 
@@ -43,8 +43,8 @@ Tenemos 2 métodos básicos para modificar listas:
 
 Veámoslos en acción.
 
-- [**`Ejemplo 2`**](Ejemplo-02/modificando_listas.ipynb)
-- [**`Reto 2`**](Reto-02/modificando_listas.ipynb)
+- [**`Ejemplo 2`**](Ejemplo-02/README.md)
+- [**`Reto 2`**](Reto-02/README.md)
 
 ---
 
