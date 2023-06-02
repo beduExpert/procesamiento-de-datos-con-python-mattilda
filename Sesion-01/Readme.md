@@ -138,8 +138,8 @@ else:
 
 Vamos a ver cómo funcionan.
 
-- [**`Ejemplo 7`**](Ejemplo-07/estructuras_de_control_de_flujo.ipynb)
-- [**`Reto 5`**](Reto-05/estructuras_de_control_de_flujo.ipynb)
+- [**`Ejemplo 7`**](Ejemplo-07/README.md)
+- [**`Reto 5`**](Reto-05/README.md)
 
 ---
 
