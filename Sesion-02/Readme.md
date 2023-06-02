@@ -34,7 +34,7 @@ Vayamos a un primer ejemplo para entender su funcionamiento.
 
 ### <ins>Modificando Listas</ins>
 
-<img src="https://i.pinimg.com/736x/65/d3/33/65d33376a75509a09641ff987fff5770.jpg" align="right" width="18%" hspace=10px>
+<img src="https://i.pinimg.com/736x/65/d3/33/65d33376a75509a09641ff987fff5770.jpg" align="right" width="17%" hspace=10px>
 
 Tenemos 2 métodos básicos para modificar listas:
 
@@ -48,16 +48,16 @@ Veámoslos en acción.
 
 ---
 
-<ins>Creando y accesando diccionarios</ins>
+### <ins>Creando y accesando diccionarios</ins>
+
+<img src="https://programmathically.com/wp-content/uploads/2021/05/dictionary-1024x554.png" align="right" width="40%" hspace=10px>
 
 Los diccionarios son nuestra segunda estructura de datos básica en Python. A diferencia de las listas, los diccionarios no tienen un orden definido. Esto no importa demasiado porque los diccionarios contienen pares llave-valor en vez de elementos (como en las listas). Para acceder a los valores basta con pasarle al diccionario la llave que estamos buscando. Piénsalo como pasarle un `url` a tu navegador para obtener una página web. En algún lado hay una estructura similar a un diccionario que relaciona cada `url` con la ip en donde está almacenada la página a la queremos acceder.
 
 Veamos cómo crear y acceder diccionarios.
 
-> Los diccionarios sobre todo me parecen valiosos por su similitud al formato JSON y porque son ideales para representar filas (muestras) en una tabla (el nombre de columna como llave y el valor de la celda como el valor de la llave). También es buena idea hablar sobre la idea del mappeo, cómo es que podemos crear pares de información que representan "lo mismo" pero visto desde diferentes perspectivas o a diferentes niveles de profundidad.
-
-[**`Ejemplo 3`**](Ejemplo-03/diccionarios.ipynb)
-[**`Reto 3`**](Reto-03/diccionarios.ipynb)
+- [**`Ejemplo 3`**](Ejemplo-03/diccionarios.ipynb)
+- [**`Reto 3`**](Reto-03/diccionarios.ipynb)
 
 ---
 
