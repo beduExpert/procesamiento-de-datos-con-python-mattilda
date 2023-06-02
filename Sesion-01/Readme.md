@@ -80,22 +80,22 @@ Python tiene diferentes tipos de datos para representar diferentes cosas. Por el
 
 Por el momento no importa si no entiendes para qué sirven las cadenas (strings) y los booleanos. Eso lo veremos más adelante.
 
-- [**`Ejemplo 4`**](Ejemplo-04/tipos_de_datos.ipynb)
+- [**`Ejemplo 4`**](Ejemplo-04/README.md)
 
 ---
 
-<ins>Interpolación de Strings</ins>
+### <ins>Interpolación de Strings</ins>
 
-Más adelante veremos que las Strings pueden contener información muy relevante dentro de nuestros conjuntos de datos (como nombres de personas, descripciones de procesos, categorías, etc). Por lo pronto, vamos a utilizar nuestras Strings para imprimir anotaciones en nuestros `outputs`. Queremos obtener resultados que se vean más o menos así:
+<img src="https://favtutor.com/resources/images/uploads/mceu_73837422811670390560897.jpg" align="right" width="50%" hspace=10px>
+
+Más adelante veremos que las cadenas pueden contener información muy relevante dentro de nuestros conjuntos de datos (como nombres de personas, descripciones de procesos, categorías, etc). Por lo pronto, vamos a utilizar nuestras cadenas para imprimir anotaciones en nuestras salidas. Queremos obtener resultados que se vean más o menos así:
 
 `Suma de variable_1 y variable_2: 10`
 
 Vamos a ver cómo hacer eso.
 
-> Elegí f-strings por sobre las otras formas de interpolar strings porque son las más modernas y su sintaxis se parece mucho a la sintaxis de interpolación de otros lenguajes de programación (como JS y Swift).
-
-[**`Ejemplo 5`**](Ejemplo-05/interpolacion_de_strings.ipynb)
-[**`Reto 3`**](Reto-03/interpolacion_de_strings.ipynb)
+- [**`Ejemplo 5`**](Ejemplo-05/README.md)
+- [**`Reto 3`**](Reto-03/README.md)
 
 ---
 
