@@ -99,13 +99,15 @@ Vamos a ver cómo hacer eso.
 
 ---
 
-<ins>Booleanos y operadores de comparación</ins>
+### <ins>Booleanos y operadores de comparación</ins>
 
-Ya practicamos con `ints`, `floats` y `strings`. Sólo nos falta entender para qué usar los `booleanos`. Nuestros programas necesitan una manera de "tomar decisiones". Nosotros en la vida real solemos tomar decisiones haciendo comparaciones entre las opciones y tomando la decisión que más nos convenga tomando en cuenta el contexto. El primer paso para lograr esto son los `operadores de comparación`. Sirven para comparar valores. Regresan un booleano `True` cuando la comparación es cierta y un booleano `False` cuando la comparación es falsa.
+<img src="https://universitylifecafe.k-state.edu/images/bookshelfarticles/truefalseexams.jpg" align="right" width="40%" hspace=10px>
 
-Python tiene los siguientes `operadores de comparación`:
+Ya practicamos con enteros, flotantes y cadenas. Sólo nos falta entender para qué usar los booleanos. Nuestros programas necesitan una manera de tomar decisiones. Nosotros en la vida real solemos tomar decisiones haciendo comparaciones entre las opciones y tomando la decisión que más nos convenga tomando en cuenta el contexto. El primer paso para lograr esto son los operadores de comparación. Sirven para comparar valores. Regresan un booleano `True` cuando la comparación es cierta y un booleano `False` cuando la comparación es falsa.
 
-```
+Python tiene los siguientes <u>operadores de comparación</u>:
+
+```python
 Mayor que: >
 Mayor o igual que: >=
 Menor que: <
@@ -116,10 +118,8 @@ No igual (distinto) que: !=
 
 Veamos cómo funcionan.
 
-> Creo que es muy útil hacer esta referencia de las decisiones que tomamos en la vida real. ¿Cómo es que funciona la inteligencia humana? Y ¿cómo es que los programas emulan esta inteligencia para variar su output dependiendo del input que reciban?
-
-[**`Ejemplo 6`**](Ejemplo-06/operadores_de_comparacion.ipynb)
-[**`Reto 4`**](Reto-04/operadores_de_comparacion.ipynb)
+- [**`Ejemplo 6`**](Ejemplo-06/README.md)
+- [**`Reto 4`**](Reto-04/README.md)
 
 ---
 
