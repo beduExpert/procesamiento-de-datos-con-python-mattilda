@@ -72,8 +72,8 @@ Tenemos 3 maneras básicas de modificar diccionarios:
 
 Vayamos a un ejemplo para ver cómo es que funcionan.
 
-- [**`Ejemplo 4`**](Ejemplo-04/modificando_diccionarios.ipynb)
-- [**`Reto 4`**](Reto-04/modificando_diccionarios.ipynb)
+- [**`Ejemplo 4`**](Ejemplo-04/README.md)
+- [**`Reto 4`**](Reto-04/README.md)
 
 ---
 
