@@ -61,7 +61,8 @@ Veamos cómo crear y acceder diccionarios.
 
 ---
 
-<ins>Modificando diccionarios</ins>
+### <ins>Modificando diccionarios</ins>
+<img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2019/12/python-dictionary-methods.jpg" align="right" width="40%" hspace=10px>
 
 Tenemos 3 maneras básicas de modificar diccionarios:
 
@@ -71,10 +72,8 @@ Tenemos 3 maneras básicas de modificar diccionarios:
 
 Vayamos a un ejemplo para ver cómo es que funcionan.
 
->
-
-[**`Ejemplo 4`**](Ejemplo-04/modificando_diccionarios.ipynb)
-[**`Reto 4`**](Reto-04/modificando_diccionarios.ipynb)
+- [**`Ejemplo 4`**](Ejemplo-04/modificando_diccionarios.ipynb)
+- [**`Reto 4`**](Reto-04/modificando_diccionarios.ipynb)
 
 ---
 
