@@ -77,15 +77,17 @@ Vayamos a un ejemplo para ver cómo es que funcionan.
 
 ---
 
-<ins>Funciones</ins>
+### <ins>Funciones</ins>
+
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20220721172423/51.png" align="right" width="50%" hspace=10px>
 
 Repetir código es una de las peores prácticas que podemos tener como programadores y analistas: vuelve nuestro código confuso y difícil de modificar. Para eso existen las funciones, que nos permiten "encapsular" procesos para que puedan ser repetidos a través de todo nuestro programa.
 
-Las funciones nos pueden ayudar a quitarle complejidad a nuestro programa y hacerlo más fácil de entender.
+Las funciones nos pueden ayudar entender de mejor manera nuestros programas.
 
 Así se ve una función:
 
-```
+```python
 def soy_una_funcion(soy_un_parametro):
     nueva_variable = soy_un_proceso
     
@@ -94,10 +96,8 @@ def soy_una_funcion(soy_un_parametro):
 
 Vamos a analizarlas paso a paso.
 
-> Desde el principio dejamos en claro que las funciones tienen parámetros y returns. A veces suelen enseñarse funciones sin parámetros y returns pero a mí me parece una mala idea porque es enseñar malas prácticas desde el inicio. Una función sin parámetros a) siempre hace lo mismo, o b) utiliza variables que no le son pasadas como parámetros. Una función sin return a) no genera nada que pueda ser utilizado en otras partes del programa, o b) está modificando variables fuera de la función (está teniendo efectos secundarios). Ambos comportamientos son peligrosos. Este módulo fue diseñado para incitar a los alumnos a programar funcionalmente. Por lo tanto, preferimos siempre funciones puras y enseñamos los principios generales adecuados para intentar evitar los efectos secundarios (sigue habiendo mutabilidad, pero eso es un problema un poco más complejo que decidí no tocar por ahora).
-
-[**`Ejemplo 5`**](Ejemplo-05/funciones.ipynb)
-[**`Reto 5`**](Reto-05/funciones.ipynb)
+- [**`Ejemplo 5`**](Ejemplo-05/README.md)
+- [**`Reto 5`**](Reto-05/README.md)
 
 ---
 
