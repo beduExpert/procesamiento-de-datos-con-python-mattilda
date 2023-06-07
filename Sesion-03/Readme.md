@@ -15,7 +15,7 @@
 
 ### <ins>Programación Funcional</ins>
 
-<img src="https://cdn.pixabay.com/photo/2013/03/30/00/09/lambda-97846_1280.png" align="right" width="20%" hspace=10px>
+<img src="https://cdn.pixabay.com/photo/2013/03/30/00/09/lambda-97846_1280.png" align="right" width="19%" hspace=10px>
 
 Aprendimos en el Prework que la programación funcional es un estilo de programación. Básicamente, es un conjunto de herramientas, métodos y reglas que sirven para organizar nuestro código y darle coherencia.
 
@@ -29,7 +29,7 @@ Entendiendo `map` y `filter` al 100 te será más fácil aproximarte a las funci
 
 ### <ins>`map`</ins>
 
-<img src="https://leblancfg.com/img/map_function.png" align="right" width="30%" hspace=10px>
+<img src="https://leblancfg.com/img/map_function.png" align="right" width="29%" hspace=10px>
 
 
 La primera función que vamos a aprender es la función `map`. Dicha función toma una función y una lista y nos regresa una nueva lista donde la función a sido aplicada a cada elemento de la lista original:
