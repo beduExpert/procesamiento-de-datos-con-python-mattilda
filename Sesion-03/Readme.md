@@ -70,18 +70,16 @@ Vayamos ahora a algunos ejemplos.
 
 ---
 
-<ins>`or`</ins>
+### <ins>`or`</ins>
 
-`or` es muy parecido a `and`. También nos sirve para unir dos `sentencias de comparación` y obtener un nuevo resultado. La diferencia es que `or` regresa `True` cuando **una de las dos o ambas** comparaciones regresen `True`:
+<img src="https://blog.teclado.com/content/images/2019/03/OR-Truth-Table.png" align="right" width="40%" hspace=10px>
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_25.png'></div>
+`or` es muy parecido a `and`. También nos sirve para unir dos sentencias de comparación y obtener un nuevo resultado. La diferencia es que `or` regresa `True` cuando **una de las dos o ambas** comparaciones regresen `True`:
 
 Vayamos a algunos ejemplos.
 
->
-
-[**`Ejemplo 4`**](Ejemplo-04/or.ipynb)
-[**`Reto 4`**](Reto-04/or.ipynb)
+- [**`Ejemplo 4`**](Ejemplo-04/README.md)
+- [**`Reto 4`**](Reto-04/README.md)
 
 ---
 
