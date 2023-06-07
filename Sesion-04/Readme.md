@@ -39,7 +39,7 @@ Las series son una especie de híbrido entre `listas` y `diccionarios`.
 
 Vamos a ver cómo funcionan.
 
-- [**`Ejemplo 2`**](Ejemplo-02/README.md)
+- [**`Ejemplo 1`**](Ejemplo-01/README.md)
 - [**`Reto 1`**](Reto-01/README.md)
 
 ---
