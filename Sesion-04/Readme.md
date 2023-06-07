@@ -13,6 +13,22 @@
 
 ---
 
+### <ins>Paquetes</ins>
+
+<img src="https://geoinnova.org/wp-content/uploads/2021/08/python-conda.png" align="right" width="40%" hspace=10px>
+
+Previo a que podamos trabajar con el material de esta sesión es importante que aprendas a instalar paquetes en el ambiente de desarrollo que configura **PyCharm**. Recuerda que en la primera sesión elegimos **Conda** como gestor de paquetes. De esta forma, necesitarás abrir la termina de **PyCharm** y ejecutar los siguientes comandos:
+
+```bash
+> conda install pip
+> pip install pandas
+```
+
+En general y de aquí adelante, ya no deberás ejecutar el primer comando, pero sí usarás bastante el comando `pip` para instalar otros paquetes. El repositorio te guiará con estas instrucciones.
+
+---
+
+
 ### <ins>Series de Pandas</ins>
 
 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstorage.googleapis.com%2Flds-media%2Fimages%2Fseries-and-dataframe.width-1200.png&f=1&nofb=1&ipt=fd44a35c7710e85e78363cbe696877dce75c69ffe986cae7472da3c926b79f27&ipo=images" align="right" width="50%" hspace=10px>
