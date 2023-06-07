@@ -1,13 +1,13 @@
-[`Procesamiento de datos con Python`](../../Readme.md) > [`Sesión 03`](../Readme.md) > `Ejemplo 1`
+[`Procesamiento de datos con Python`](../../Readme.md) > [`Sesión 03`](../Readme.md) > `Ejemplo 3`
 
-# Ejemplo 1: Listas 
+# Ejemplo 3: And
 
 <div style="text-align: justify;">
 
 ## 1. Objetivos :dart:
 
-- Entender la sintaxis de las listas en **Python**
-- Aprender a crear listas y accesarlas
+- Aprender a extender las capacidades de los operadores de comparación usando `and`.
+- Usar `and` para llamar `filter` con múltiples filtros.
 
 ## 2. Requisitos :clipboard:
 
@@ -15,82 +15,78 @@
 
 ## 3. Desarrollo :rocket:
 
-1. Las listas son secuencias ordenadas de datos. El orden de los datos en la lista es el mismo orden que tienen los datos a la hora de ser asignados a la lista. Una lista se ve así:
+Muchas veces una sola sentencia de comparación no va ser suficiente para filtrar los datos como queremos. En ese caso, and puede ayudarnos a unir dos sentencias. `and` regresa `True` cuando ambas sentencias regresan `True`.
 
-    ```python
-    lista_1 = [1, 4, 6, 2, 4]
-    ```
+Digamos que tenemos dos funciones que realizan una comparación y regresan `True` cuando la comparación se cumple:
 
-    Cada elemento en la lista tiene un índice, que se usa para poder acceder a dicho elemento. Dado que las listas son ordenadas, los índices se van asignando secuencialmente desde el primer elemento hasta el último. El primer índice es siempre 0, y por lo tanto el último índice es siempre n - 1, donde n es el número total de elementos en la lista.
+```python
+def numero_es_divisible_entre_3(numero):
+    return numero % 3 == 0
 
-    Por lo tanto, para acceder al primer y al último elemento de la lista anterior, hacemos lo siguiente:
+def numero_es_menor_que_10(numero):
+    return numero < 10
+```
 
-    ```python
-    print(f'Primer elemento de la lista: {lista_1[0]}')
-    print(f'Último elemento de la lista: {lista_1[4]}')
-    ```
+Vamos a realizar algunas comparaciones usando ambas funciones para evaluar el mismo número:
 
-    ```
-    Primer elemento de la lista: 1
-    Último elemento de la lista: 4
-    ```
+```python
+numero_es_divisible_entre_3(9) and numero_es_menor_que_10(9)
+```
+*Salida:*
+```
+True
+```
 
-    Si intentamos acceder a un índice que no existe, porque no hay suficientes elementos en la lista, Python nos da un error:
+```python
+numero_es_divisible_entre_3(12) and numero_es_menor_que_10(12)
+```
+*Salida:*
+```
+False
+```
 
-    ```python
-    lista_1[10]
-    ```
+```python
+numero_es_divisible_entre_3(8) and numero_es_menor_que_10(8)
+```
+*Salida:*
+```
+False
+```
 
-    Dado que es difícil saber cuántos elementos hay en una lista, a menos que nos pongamos a contar, hay algo que podemos hacer para acceder a los últimos elementos de una lista sin arriesgarnos a tener un error.
+```python
+numero_es_divisible_entre_3(16) and numero_es_menor_que_10(16)
+```
+*Salida:*
+```
+False
+```
 
-    Python nos permite acceder a los elementos empezando desde el último elemento hasta el primero (al revés, pues). Esto se hace usando números negativos. O sea que para acceder al último número puedo usar un -1, para acceder al penúltimo número puedo usar -2 y así consecutivamente:
+Como puedes ver, `and` sólo regresa True cuando ambas comparaciones regresan `True`.
 
-    ```python
-    print(lista_1[-1])
-    print(lista_1[-2])
-    ```
+Veamos ahora cómo aplicarlo a un `filter`. Tenemos una lista que queremos filtrar:
 
-    ```
-    4
-    2
-    ```
+```python
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+```
 
-    Como podrás imaginar, no solamente podemos guardar datos crudos en una lista (1, 2, 3, 4, etc). Podemos guardar datos en variables y luego guardar esas variables en la lista. Las siguientes dos listas son equivalentes:
+En esta ocasión vamos a construir una función que reúna ambas funciones que tenemos, porque `filter` sólo recibe una función (más adelante veremos otras opciones):
 
-    ```python
-    lista_con_valores_crudos = [1, 2, 3, 4, 5]
+```python
+def numero_es_divisible_entre_3_y_menor_que_10(numero):    
+    return numero_es_divisible_entre_3(numero) and numero_es_menor_que_10(numero)
+```
 
-    uno = 1
-    dos = 2
-    tres = 3
-    cuatro = 4
-    cinco = 5
+Ahora la aplicamos:
 
-    lista_con_variables = [uno, dos, tres, cuatro, cinco]
+```python
+list(filter(numero_es_divisible_entre_3_y_menor_que_10, numeros))
+```
+*Salida:*
+```
+[3, 6, 9]
+```
 
-    print(lista_con_valores_crudos)
-    print(lista_con_variables)
-    ```
-
-    ```
-    [1, 2, 3, 4, 5]
-    [1, 2, 3, 4, 5]
-    ```
-
-2. Como vimos en el Prework, una lista puede contener cualquier tipo de dato de los que ya conocemos (incluso otras listas).
-
-    ```python
-    lista_de_ints = [1, 5, 8, 77, 45, 30]
-    lista_de_floats = [2.4, 5.67, 8.7, 9.34]
-    lista_de_strings = ["Juan", "Pepe", "Pedro", "Jose"]
-    lista_de_booleanos = [True, False, False, True, False]
-    lista_de_listas_de_ints = [[3, 4, 6], [7, 8, 9], [4, 6, 2]]
-    ```
-
-    A pesar de que Python nos permite guardar diversos tipos de datos en una sola lista, aprendimos que la mejor práctica es evitar esto y guardar un solo tipo de dato por lista
-
-    ¡Vayamos a nuestro primer reto!
-
+¡Genial! ¿No es así? Vayamos ahora a practicar esta herramienta.
 
 [`Anterior`](../Readme.md) | [`Siguiente`](../Readme.md)
 
