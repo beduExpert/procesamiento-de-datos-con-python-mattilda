@@ -85,7 +85,7 @@ Vayamos a algunos ejemplos.
 
 ### <ins>`not`</ins>
 
-<img src="https://de-iitr.vlabs.ac.in/exp/truth-table-gates/images/truth_not.png" align="right" width="30%" hspace=10px>
+<img src="images/truth_not.png" align="right" width="30%" hspace=10px>
 
 
 `not` simplemente regresa el booleano opuesto al que recibe. Es decir:
