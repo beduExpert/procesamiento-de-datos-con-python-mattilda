@@ -48,7 +48,7 @@ Vamos a ver cómo funcionan.
 
 <img src="Imgs/01.png" align="right" width="20%" hspace=10px>
 
-Podemos usar otros métodos de indexación en las `Series` que resultan súmamente útiles a la hora de explorar y procesar datos.
+Podemos usar otros métodos de indexación en las series que resultan súmamente útiles a la hora de explorar y procesar datos.
 
 Podemos elegir, por ejemplo, rangos de datos usando una sintaxis como la siguiente:
 
