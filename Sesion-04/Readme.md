@@ -59,20 +59,18 @@ Podemos elegir, por ejemplo, rangos de datos usando una sintaxis como la siguien
 
 ---
 
-<ins>Dataframes</ins>
+### <ins>Dataframes</ins>
 
-Los `DataFrames` son la segunda estructura de datos de `pandas` que vamos estar usando constantemente. Un `DataFrame` está hecho de dos o más `Series` acomodadas de manera que obtenemos una estructura tabular.
+Los DataFrames son la segunda estructura de datos de Pandas que vamos estar usando constantemente. Un DataFrame está hecho de dos o más series acomodadas de manera que obtenemos una estructura tabular.
 
-Los `DataFrames` son bidimensionales, tienen filas y columnas. Cada columna es una `Serie` que tiene un nombre. Los `DataFrames` nos ayudan a manejar datos en estructura tabular de manera muy eficiente.
+Los DataFrames son bidimensionales, tienen filas y columnas. Cada columna es una serie que tiene un nombre. Los DataFrames nos ayudan a manejar datos en estructura tabular de manera muy eficiente.
 
 <div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-4_23.png'></div>
 
 Veamos cómo funcionan.
 
-> 
-
-[**`Ejemplo 4`**](Ejemplo-04/dataframes.ipynb)
-[**`Reto 3`**](Reto-03/dataframes.ipynb)
+- [**`Ejemplo 3`**](Ejemplo-03/README.md)
+- [**`Reto 3`**](Reto-03/README.md)
 
 ---
 
