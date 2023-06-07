@@ -44,7 +44,9 @@ Vamos a ver cómo funcionan.
 
 ---
 
-<ins>Métodos avanzados de indexación</ins>
+#### <ins>Métodos avanzados de indexación</ins>
+
+<img src="Imgs/01.png" align="right" width="25%" hspace=10px>
 
 Podemos usar otros métodos de indexación en las `Series` que resultan súmamente útiles a la hora de explorar y procesar datos.
 
@@ -52,10 +54,8 @@ Podemos elegir, por ejemplo, rangos de datos usando una sintaxis como la siguien
 
 `serie.loc[4:23]`
 
->
-
-[**`Ejemplo 3`**](Ejemplo-03/indexacion_de_series.ipynb)
-[**`Reto 2`**](Reto-02/indexacion_de_series.ipynb)
+- [**`Ejemplo 3`**](Ejemplo-03/indexacion_de_series.ipynb)
+- [**`Reto 2`**](Reto-02/indexacion_de_series.ipynb)
 
 ---
 
