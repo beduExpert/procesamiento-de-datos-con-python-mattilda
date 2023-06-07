@@ -59,7 +59,7 @@ Veamos a detalle cómo funciona.
 
 ### <ins>`and`</ins>
 
-<img src="https://blog.teclado.com/content/images/2019/03/AND-Truth-Table.png" align="right" width="39%" hspace=10px>
+<img src="https://blog.teclado.com/content/images/2019/03/AND-Truth-Table.png" align="right" width="38%" hspace=10px>
 
 Hasta ahora sólo hemos utilizado `filter` con una función (una sola condición) para filtrar nuestra lista. ¿Pero qué pasa si queremos usar múltiples condiciones? Aquí es donde entran los operadores lógicos, que nos permiten unir dos sentencias de comparación. El primero es el operador `and`, que regresa `True` cuando las dos comparaciones que está uniendo regresan `True`, y `False` en todos los demás casos:
 
@@ -72,7 +72,7 @@ Vayamos ahora a algunos ejemplos.
 
 ### <ins>`or`</ins>
 
-<img src="https://blog.teclado.com/content/images/2019/03/OR-Truth-Table.png" align="right" width="39%" hspace=10px>
+<img src="https://blog.teclado.com/content/images/2019/03/OR-Truth-Table.png" align="right" width="38%" hspace=10px>
 
 `or` es muy parecido a `and`. También nos sirve para unir dos sentencias de comparación y obtener un nuevo resultado. La diferencia es que `or` regresa `True` cuando **una de las dos o ambas** comparaciones regresen `True`:
 
@@ -83,17 +83,19 @@ Vayamos a algunos ejemplos.
 
 ---
 
-<ins>`not`</ins>
+### <ins>`not`</ins>
 
-`not` simplemente regresa el `booleano` opuesto al que recibe
+<img src="https://de-iitr.vlabs.ac.in/exp/truth-table-gates/images/truth_not.png" align="right" width="30%" hspace=10px>
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_29.png'></div>
 
-Vamos a ver cómo funciona
+`not` simplemente regresa el booleano opuesto al que recibe. Es decir:
 
->
+- Si recibe `True` regresa `False`
+- Si recibe `False` regresa `True`
 
-[**`Ejemplo 5`**](Ejemplo-05/not.ipynb)
+Vamos a ver cómo funciona.
+
+- [**`Ejemplo 5`**](Ejemplo-05/README.md)
 
 ---
 
