@@ -1,30 +1,30 @@
+# Sesión 04: Pandas y Análisis Exploratorio de Datos
 
-## Sesión 04: Pandas y Análisis Exploratorio de Datos
+<img src="https://raw.githubusercontent.com/beduExpert/Introduccion-a-Bases-de-Datos-Diciembre-2020/master/imagenes/pizarron.png" align="right" height="100" width="100" hspace="10">
+<div style="text-align: justify;">
 
-### 1. Objetivos
+## 1. Objetivos
 
 1. Identificar las características básicas de las Series y DataFrames de Pandas.
 2. Leer JSONs usando Pandas.
 3. Utilizar herramientas básicas de exploración de datos.
 
-### 2. Contenido
+## 2. Contenido
 
 ---
 
-<ins>Series de Pandas</ins>
+### <ins>Series de Pandas</ins>
 
-Las `Series` son una de las dos estructuras de datos que ofrece `pandas` que nos hacen la vida mucho más fácil como científicos de datos.
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstorage.googleapis.com%2Flds-media%2Fimages%2Fseries-and-dataframe.width-1200.png&f=1&nofb=1&ipt=fd44a35c7710e85e78363cbe696877dce75c69ffe986cae7472da3c926b79f27&ipo=images" align="right" width="50%" hspace=10px>
 
-Las `Series` son una especie de híbrido entre `listas` y `diccionarios`.
+Las series son una de las dos estructuras de datos que ofrece Pandas que nos hacen la vida mucho más fácil como científicos de datos.
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-4_7.png'></div>
+Las series son una especie de híbrido entre `listas` y `diccionarios`.
 
 Vamos a ver cómo funcionan.
 
-> He elegido enseñar el operador `loc` desde el principio. Usar el `operador de indexación` sin `loc` o `iloc`, aunque pareciera mejor por su similitud a las `listas` se presta a muchas confusiones y puede acarrear muchos errores. Creo que es mejor acostumbrarse a ser específicos al respecto de si estamos pidiendo los índices por su nombre o por su posición.
-
-[**`Ejemplo 2`**](Ejemplo-02/series.ipynb)
-[**`Reto 1`**](Reto-01/series.ipynb)
+- [**`Ejemplo 2`**](Ejemplo-02/README.md)
+- [**`Reto 1`**](Reto-01/README.md)
 
 ---
 
