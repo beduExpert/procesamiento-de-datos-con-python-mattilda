@@ -41,20 +41,19 @@ Veamos cómo funciona.
 
 ---
 
-<ins>`filter`</ins>
+### <ins>`filter`</ins>
+
+<img src="https://www.w3resource.com/w3r_images/built-in-function-filter-function-image-1.png" align="right" width="40%" hspace=10px>
 
 Nuestra segunda función se llama `filter`. Tal y como su nombre lo dice, `filter` nos ayuda a filtrar elementos que no queremos de la lista.
 
-`filter` recibe una función que regrese `True` o `False` y una `lista`. Después aplica la función "elemento por elemento" a la `lista`. Cada vez que la función regrese `True`, el elemento se queda en la nueva lista; cuando la función regrese `False`, el elemento es descartado:
+`filter` recibe una función que regrese `True` o `False` y una lista. Después aplica la función elemento por elemento a la lista. Cada vez que la función regrese `True`, el elemento se queda en la nueva lista; cuando la función regrese `False`, el elemento es descartado.
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_44.png'></div>
 
 Veamos a detalle cómo funciona.
 
-> `filter` nos permitirá tener un primer acercamiento a los filtros, así como también a los `operadores lógicos` que aparecerán innumerables veces en los filtros de `pandas`.
-
-[**`Ejemplo 2`**](Ejemplo-02/filter.ipynb)
-[**`Reto 2`**](Reto-02/filter.ipynb)
+- [**`Ejemplo 2`**](Ejemplo-02/README.md)
+- [**`Reto 2`**](Reto-02/README.md)
 
 ---
 
