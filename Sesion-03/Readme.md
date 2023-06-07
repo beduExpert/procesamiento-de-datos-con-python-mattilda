@@ -1,42 +1,43 @@
+# Sesión 03: Programación funcional, operadores lógicos y funciones lambda
 
-## Sesión 03: Programación funcional, operadores lógicos y funciones lambda
+<img src="https://raw.githubusercontent.com/beduExpert/Introduccion-a-Bases-de-Datos-Diciembre-2020/master/imagenes/pizarron.png" align="right" height="100" width="100" hspace="10">
+<div style="text-align: justify;">
 
-### 1. Objetivos
+## 1. Objetivos
 
 1. Usar las dos funciones más importantes de la programación funcional: `map` y `filter`.
-2. Utilizar `operadores lógicos` para extender la funcionalidad de nuestros `operadores de comparación`.
-3. Conocer la sintaxis de las funciones `lambda` par simplificar la definición de funciones.
+2. Utilizar operadores para extender la funcionalidad de nuestros operadores de comparación.
+3. Conocer la sintaxis de las funciones `lambda` para simplificar la definición de funciones.
 
-### 2. Contenido
+## 2. Contenido
 
 ---
 
-<ins>Programación Funcional</ins>
+### <ins>Programación Funcional</ins>
 
-Aprendimos en el Prework que la `programación funcional` es un paradigma de programación. Básicamente, es un conjunto de herramientas, métodos y reglas que sirven para organizar nuestro código y darle coherencia.
+<img src="https://cdn.pixabay.com/photo/2013/03/30/00/09/lambda-97846_1280.png" align="right" width="20%" hspace=10px>
 
-En este curso no nos interesan los detalles de la `programación funcional`, pero vamos a aprender a usar dos de sus funciones más comunes: `map` y `filter`. ¿Por qué? Porque la manera como funcionan se parece mucho a la manera como programan los científicos de datos.
+Aprendimos en el Prework que la programación funcional es un estilo de programación. Básicamente, es un conjunto de herramientas, métodos y reglas que sirven para organizar nuestro código y darle coherencia.
+
+En este curso no nos interesan los detalles de la programación funcional, pero vamos a aprender a usar dos de sus funciones más comunes: `map` y `filter`. ¿Por qué? Porque la manera como funcionan se parece mucho a la manera como programan los científicos de datos.
 
 Entendiendo `map` y `filter` al 100 te será más fácil aproximarte a las funciones universales en `numpy` y `pandas` y a cómo funcionan sus filtros.
 
 ¡Vamos adelante!
 
-> Elegí los temas de `map` y `filter` en lugar de los ciclos porque se parecen mucho más a los paradigmas que utilizan los científicos de datos. Es poco común (y a veces incluso es mala práctica) usar ciclos junto con las librerías de `pandas` y `numpy`. Por eso me tomé la libertad impensable de omitirlos.
-
 ---
 
-<ins>`map`</ins>
+### <ins>`map`</ins>
 
-La primera función que vamos a aprender es la función `map`. `map` toma una función y una lista y nos regresa una nueva lista donde la función a sido aplicada a cada elemento de la lista original:
+<img src="https://leblancfg.com/img/map_function.png" align="right" width="30%" hspace=10px>
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_43.png'></div>
+
+La primera función que vamos a aprender es la función `map`. Dicha función toma una función y una lista y nos regresa una nueva lista donde la función a sido aplicada a cada elemento de la lista original:
 
 Veamos cómo funciona.
 
-> Es importante que los alumnos entiendan el concepto de aplicar una función "elemento por elemento" ("element-wise") a una `lista`, ya que en esencia eso es lo que sucede cuando aplicamos funciones universales o vectorizadas a un `numpy.array` o a una `Serie` de `pandas`.
-
-[**`Ejemplo 1`**](Ejemplo-01/map.ipynb)
-[**`Reto 1`**](Reto-01/map.ipynb)
+- [**`Ejemplo 1`**](Ejemplo-01/README.md)
+- [**`Reto 1`**](Reto-01/README.md)
 
 ---
 
