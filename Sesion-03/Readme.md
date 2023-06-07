@@ -57,18 +57,16 @@ Veamos a detalle cómo funciona.
 
 ---
 
-<ins>`and`</ins>
+### <ins>`and`</ins>
 
-Hasta ahora sólo hemos utilizado `filter` con una función (una sola condición) para filtrar nuestra lista. ¿Pero qué pasa si queremos usar múltiples condiciones? Aquí es donde entran los `operadores lógicos`, que nos permiten unir dos `sentencias de comparación`. El primero es el operador `and`, que regresa `True` cuando las dos comparaciones que está uniendo regresan `True`, y `False` en todos los demás casos:
+<img src="https://blog.teclado.com/content/images/2019/03/AND-Truth-Table.png" align="right" width="40%" hspace=10px>
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-3_16.png'></div>
+Hasta ahora sólo hemos utilizado `filter` con una función (una sola condición) para filtrar nuestra lista. ¿Pero qué pasa si queremos usar múltiples condiciones? Aquí es donde entran los operadores lógicos, que nos permiten unir dos sentencias de comparación. El primero es el operador `and`, que regresa `True` cuando las dos comparaciones que está uniendo regresan `True`, y `False` en todos los demás casos:
 
 Vayamos ahora a algunos ejemplos.
 
->
-
-[**`Ejemplo 3`**](Ejemplo-03/and.ipynb)
-[**`Reto 3`**](Reto-03/and.ipynb)
+- [**`Ejemplo 3`**](Ejemplo-03/README.md)
+- [**`Reto 3`**](Reto-03/README.md)
 
 ---
 
