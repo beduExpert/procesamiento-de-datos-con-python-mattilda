@@ -44,7 +44,7 @@ Vamos a ver cómo funcionan.
 
 ---
 
-#### <ins>Métodos avanzados de indexación</ins>
+### <ins>Métodos avanzados de indexación</ins>
 
 <img src="Imgs/01.png" align="right" width="20%" hspace=10px>
 
