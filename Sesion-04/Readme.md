@@ -100,7 +100,7 @@ Uno de los formatos más comunes en los que vamos a encontrar conjuntos de datos
 
 Vamos a aprender a leer archivos JSON y a convertirlos en DataFrames.
 
-- [**`Ejemplo 6`**](Ejemplo-06/README.md)
+- [**`Ejemplo 5`**](Ejemplo-05/README.md)
 
 ---
 
