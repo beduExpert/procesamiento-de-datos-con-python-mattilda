@@ -76,7 +76,7 @@ Veamos cómo funcionan.
 
 ### <ins>Manipulación de columnas en un `DataFrame`</ins>
 
-<img src="https://editor.analyticsvidhya.com/uploads/19292Screen%20Shot%202021-06-17%20at%208.34.43%20PM.png" align="right" width="25%" hspace=10px>
+<img src="https://editor.analyticsvidhya.com/uploads/19292Screen%20Shot%202021-06-17%20at%208.34.43%20PM.png" align="right" width="20%" hspace=10px>
 
 Podemos agregar, reasignar y eliminar columnas de nuestros DataFrames. La sintaxis es muy parecida a la que se usa con los diccionarios. 
 
@@ -85,9 +85,9 @@ Podemos agregar, reasignar y eliminar columnas de nuestros DataFrames. La sintax
 
 ---
 
-<ins>Lectura de archivos JSON</ins>
+### <ins>Lectura de archivos JSON</ins>
 
-Uno de los formatos más comunes en los que vamos a encontrar conjuntos de datos es el formato JSON. Como probablemente ya sabrás, el formato JSON se parece bastante al formato que tienen los `diccionarios` de Python:
+Uno de los formatos más comunes en los que vamos a encontrar conjuntos de datos es el formato JSON. Como probablemente ya sabrás, el formato JSON se parece bastante al formato que tienen los diccionarios de Python:
 
 ```python
 {
@@ -98,11 +98,9 @@ Uno de los formatos más comunes en los que vamos a encontrar conjuntos de datos
 }
 ```
 
-Vamos a aprender a leer archivos JSON y a convertirlos en `DataFrames`.
+Vamos a aprender a leer archivos JSON y a convertirlos en DataFrames.
 
-> Lectura de CSVs y adquisición de datos por medio de APIs y Bases de Datos se estudian más adelante en el módulo.
-
-[**`Ejemplo 6`**](Ejemplo-06/lectura_de_json.ipynb)
+- [**`Ejemplo 6`**](Ejemplo-06/README.md)
 
 ---
 
