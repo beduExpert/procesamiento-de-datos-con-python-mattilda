@@ -104,19 +104,19 @@ Vamos a aprender a leer archivos JSON y a convertirlos en DataFrames.
 
 ---
 
-<ins>Análisis Exploratorio de Datos</ins>
+### <ins>Análisis exploratorio de datos</ins>
 
-El Ánalisis Exploratorio de Datos es el proceso a través del cual exploramos un nuevo conjunto de datos para conocer su contenido a profundidad. Este paso es extremadamente importante, puesto que nos ayuda a saber cómo limpiar y reestructurar nuestro conjunto de datos de manera que podamos realizar un mejor análisis y visualización de los datos.
+<img src="https://abdatum.com/media/images/analisis-exploratorio-datos-cover.png" align="right" width="40%" hspace=10px>
 
-Vamos a ver algunas herramientas básicas que tienen los `DataFrames` para explorar un conjunto de datos.
+El Análisis Exploratorio de Datos es el proceso a través del cual exploramos un nuevo conjunto de datos para conocer su contenido a profundidad. Este paso es extremadamente importante, puesto que nos ayuda a saber cómo limpiar y reestructurar nuestro conjunto de datos de manera que podamos realizar un mejor análisis y visualización de los datos.
 
-> Por ahora estamos haciendo una exploración muy básica. Lo que importa es que el alumno entienda los principios básicos de cómo crear `DataFrames` a partir de conjuntos de datos existentes. En la sesión que sigue se verá Análisis Exploratorio a más profundidad.
+Vamos a ver algunas herramientas básicas que tienen los DataFrames para explorar un conjunto de datos.
 
-[**`Ejemplo 7`**](Ejemplo-07/aed.ipynb)
-[**`Reto 5`**](Reto-05/aed.ipynb)
+- [**`Ejemplo 6`**](Ejemplo-06/README.md)
+- [**`Reto 5`**](Reto-05/README.md)
 
 ---
 
-### 3. Postwork
+## 3. Postwork
 
 [**`Postwork Sesión 4`**](Postwork/Readme.md)
