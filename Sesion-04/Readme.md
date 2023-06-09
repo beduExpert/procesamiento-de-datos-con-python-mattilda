@@ -76,7 +76,7 @@ Veamos cómo funcionan.
 
 ### <ins>Manipulación de columnas en un `DataFrame`</ins>
 
-<img src="https://editor.analyticsvidhya.com/uploads/19292Screen%20Shot%202021-06-17%20at%208.34.43%20PM.png" align="right" width="30%" hspace=10px>
+<img src="https://editor.analyticsvidhya.com/uploads/19292Screen%20Shot%202021-06-17%20at%208.34.43%20PM.png" align="right" width="25%" hspace=10px>
 
 Podemos agregar, reasignar y eliminar columnas de nuestros DataFrames. La sintaxis es muy parecida a la que se usa con los diccionarios. 
 
