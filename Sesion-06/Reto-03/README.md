@@ -1,3 +1,50 @@
+## Reto 3: Evitando errores con try except
+
+### 1. Objetivos:
+    - Usar una estructura try except para evitar que una función lance un error
+ 
+---
+    
+### 2. Desarrollo:
+
+### a) Evitando errores al hacer conversión de tipos de dato
+
+La conversión de tipos de dato (data casting) es una de las labores más importantes de un procesador de datos. A veces tenemos datos que deberían de tener un tipo de dato pero que tienen otro. Vamos a imaginar que tenemos un sistema donde recibimos input de un usuario. Este input son números que están representados como strings, como por ejemplo:
+
+- "1.5"
+- "4"
+- "100.23"
+- "134.99"
+
+Nosotros queremos guardar esos datos como `float`, no como `string` y por lo tanto vamos a crear una función que convierta una `lista` de `strings` en una `lista` de `float`. El problema es que a veces, el usuario envía inputs que no son números representados como `strings`, sino otro tipo de caracteres, como:
+
+- "a"
+- "fgwe"
+- "4r5t"
+- "#!"
+
+Esos caracteres no los podemos convertir en `float` y por lo tanto vamos a sustituirlos por un `NaN` de `numpy` (`np.nan`). Tu reto es el siguiente:
+
+1. Completa la función debajo que recibe una `lista` de `strings` y regresa una `lista` de `floats`.
+2. Usa un `for loop` para iterar por la `lista` de `strings` y convertir uno por uno los valores a `float` (puedes leer cómo hacer eso [aquí](http://lineadecodigo.com/python/iterar-una-lista-en-python/) y [aquí](https://es.stackoverflow.com/questions/49194/c%C3%B3mo-convertir-un-tipo-string-a-float-o-int))
+3. Los resultados exitosos de la conversión guárdalos en una la `lista` `lista_de_floats` que es lo que regresa la función.
+4. Agrega una estructura `try except` para evitar errores cuando la conversión no sea posible y para agregar un `np.nan` a `lista_de_floats` en caso de que la conversión haya fallado.
+
+
+```python
+def lista_de_strings_a_lista_de_floats(lista_de_strings):
+    
+    lista_de_floats = []
+    
+    ## Tú código va aquí
+    ## ...
+    ## ...
+        
+    return lista_de_floats
+```
+
+
+```python
 
 def test_lista_de_strings_a_lista_de_floats(lista_de_strings_a_lista_de_floats):
     
@@ -64,3 +111,11 @@ def test_lista_de_strings_a_lista_de_floats(lista_de_strings_a_lista_de_floats):
         return
     
     print(f'Todo funciona correctamente!')
+
+test_lista_de_strings_a_lista_de_floats(lista_de_strings_a_lista_de_floats)
+```
+
+
+```python
+
+```
