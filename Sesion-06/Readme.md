@@ -1,28 +1,30 @@
+# Sesión 06: APIs, automatización y concatenación de DataFrames
 
-## Sesión 06: APIs, automatización y concatenación de DataFrames
+<img src="https://raw.githubusercontent.com/beduExpert/Introduccion-a-Bases-de-Datos-Diciembre-2020/master/imagenes/pizarron.png" align="right" height="100" width="100" hspace="10">
+<div style="text-align: justify;">
 
-### 1. Objetivos
+## 1. Objetivos
 
 - Hacer peticiones a APIs.
-- Automatizar peticiones a APIs utilizando For loops y Excepciones. 
-- Usar concat para unir múltiples `Series`.
-- Indexar usando `Multiíndices` en filas
-- Usar concat para unir múltiples `DataFrames`.
+- Automatizar peticiones a APIs utilizando estructuras `for` y manejo de excepciones. 
+- Usar concat para unir múltiples series.
+- Indexar usando multiíndices en filas
+- Usar concat para unir múltiples DataFrames.
 - Guardar datasets localmente en formato .csv.
 
-### 2. Contenido
+## 2. Contenido
 
 ---
 
-<ins>Introducción</ins>
+### <ins>Introducción</ins>
 
-Hoy vamos a aprender a adquirir datos de una manera que difiere mucho de las que hemos visto hasta ahora. No vamos a obtener los datos directamente de un archivo que descargamos o que obtenemos directamente de alguien más, sino que vamos a usar una API para obtener nuestros datos programáticamente y convertirlos en un `DataFrame` que podamos utilizar.
+Hoy vamos a aprender a adquirir datos de una manera que difiere mucho de las que hemos visto hasta ahora. No vamos a obtener los datos directamente de un archivo que descargamos o que obtenemos directamente de alguien más, sino que vamos a usar una API para obtener nuestros datos programáticamente y convertirlos en un DataFrame que podamos utilizar.
 
-En el proceso no sólo veremos APIs sino que también aprenderemos a automatizar procesos usando Python, a concatenar `DataFrames` y a indexar `Series` y `DataFrames` usando `multiíndices` en las filas.
+En el proceso no sólo veremos APIs sino que también aprenderemos a automatizar procesos usando Python, a concatenar DataFrames y a indexar series y DataFrames usando multiíndices en las filas.
 
 ---
 
-<ins>APIs</ins>
+### <ins>APIs</ins>
 
 En el Prework vimos una descripción detallada de lo que son las APIs y cómo funcionan. Vimos que para hacer una petición a una API, tenemos que tomar en cuenta las siguientes cosas:
 
@@ -38,84 +40,84 @@ Veamos esto en acción.
 
 ---
 
-<ins>Librería Request</ins>
+### <ins>Biblioteca Request</ins>
 
-Vamos a usar la librería Request para realizar nuestras peticiones en Python. Primero que nada, tenemos que instalarla usando:
+Vamos a usar la biblioteca Request para realizar nuestras peticiones en Python. Primero que nada, tenemos que instalarla usando:
 
-`!pip install requests`
+`pip install requests`
 
 Ahora vamos a ver cómo usarla.
 
 >
 
-[**`Ejemplo 1`**](Ejemplo-01/request.ipynb)
-[**`Reto 1`**](Reto-01/request.ipynb)
+- [**`Ejemplo 1`**](Ejemplo-01/README.md)
+- [**`Reto 1`**](Reto-01/README.md)
 
 ---
 
-<ins>Automatización con `for loops`</ins>
+### <ins>Automatización con estructuras `for`</ins>
 
-Podemos usar `for loops` para automatizar la realización de múltiples peticiones a distintos URLs. Primero que nada, vamos a ver cómo es que funcionan los `for loops`. Un `for loop` se ve así:
+Podemos usar estructuras `for` para automatizar la realización de múltiples peticiones a distintos URLs. Primero que nada, vamos a ver cómo es que funciona la estructura `for`. Un `for` se ve así:
 
 <div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-6_15.png'></div>
 
 >
 
-[**`Ejemplo 2`**](Ejemplo-02/for_loop.ipynb)
-[**`Reto 2`**](Reto-02/for_loop.ipynb)
+- [**`Ejemplo 2`**](Ejemplo-02/README.md)
+- [**`Reto 2`**](Reto-02/README.md)
 
 ---
 
-<ins>Protegiendo nuestro programa con `try except`</ins>
+### <ins>Protegiendo nuestro programa con `try except`</ins>
 
 Cuando automatizamos cosas, no queremos tener que estar revisando todo el proceso continuamente. Si tuviéramos que hacer eso, el proceso no estaría muy automatizado que digamos. Durante la ejecución de nuestro programa pueden suceder errores que hagan que nuestro programa deje de correr.
 
-Para evitar que estos errores detengan nuestro programa, podemos usar estructuras `try except` para indicarle a Python qué hacer cuando un error suceda:
+Para evitar que estos errores detengan nuestro programa, podemos usar bloques `try except` para indicarle a Python qué hacer cuando un error suceda:
 
 <div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-6_21.png'></div>
 
 >
 
-[**`Ejemplo 3`**](Ejemplo-03/excepciones.ipynb)
-[**`Reto 3`**](Reto-03/excepciones.ipynb)
+- [**`Ejemplo 3`**](Ejemplo-03/README.md)
+- [**`Reto 3`**](Reto-03/README.md)
 
 ---
 
-<ins>Concatenación de `Series`</ins>
+### <ins>Concatenación de series</ins>
 
-Cuando obtenemos nuestros datos en "cachitos", como cuando hacemos peticiones a una API, necesitamos luego unir todos nuestros datos en un solo `DataFrame`. Para eso podemos usar la función `pd.concat` de `pandas`. Primero vamos a aprender los principios básicos usando `Series`, para luego poder aplicar esos mismos principios a los `DataFrames`.
+Cuando obtenemos nuestros datos en "cachitos", como cuando hacemos peticiones a una API, necesitamos luego unir todos nuestros datos en un solo DataFrame. Para eso podemos usar el método `pd.concat` de `pandas`. Primero vamos a aprender los principios básicos usando series, para luego poder aplicar esos mismos principios a los DataFrames.
 
 <div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-6_27.png'></div>
 
 >
 
-[**`Ejemplo 4`**](Ejemplo-04/concat_series.ipynb)
+- [**`Ejemplo 4`**](Ejemplo-04/README.md)
 
 ---
 
-<ins>Concatenación de `DataFrames`</ins>
+### <ins>Concatenación de `DataFrames`</ins>
 
-Los mismos principios de concatenación aplican tanto a `Series` como a `DataFrames`. Vamos a verlos en acción y realizar una práctica para que nos quede todo súper claro.
+Los mismos principios de concatenación aplican tanto a series como a `DataFrames`. Vamos a verlos en acción y realizar una práctica para que nos quede todo súper claro.
 
 <div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-6_38.png'></div>
 
 >
 
-[**`Ejemplo 5`**](Ejemplo-05/concat_dataframes.ipynb)
-[**`Reto 4`**](Reto-04/concat.ipynb)
+- [**`Ejemplo 5`**](Ejemplo-05/README.md)
+- [**`Reto 4`**](Reto-04/README.md)
 
 ---
 
-<ins>Uniendo todo</ins>
+### <ins>Uniendo todo</ins>
 
-Ahora sí, ha llegado el momento de la verdad. Vamos a usar `for loops`, `try except` y concatenaciones para automatizar las peticiones a nuestra API.
+Ahora sí, ha llegado el momento de la verdad. Vamos a usar estructuras `for`, `try except` y concatenaciones para automatizar las peticiones a nuestra API.
 
 ¡Abróchate los cinturones, viajero espacial, que esto se va a poner bueno!
 
 >
 
-[**`Ejemplo 6`**](Ejemplo-06/automatizando_peticiones.ipynb)
-[**`Reto 5`**](Reto-05/automatizando_peticiones.ipynb)
+- [**`Ejemplo 6`**](Ejemplo-06/README.md)
+- [**`Reto 5`**](Reto-05/README.md)
 
 ---
 
