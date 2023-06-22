@@ -37,8 +37,8 @@ Veremos algunas técnicas parar hacer `casting` manualmente en los casos en los 
 
 >
 
-- [**`Ejemplo 1`**](Ejemplo-01/casting.ipynb)
-- [**`Reto 1`**](Reto-01/casting.ipynb)
+- [**`Ejemplo 1`**](Ejemplo-01/README.md)
+- [**`Reto 1`**](Reto-01/README.md)
 
 ---
 
@@ -52,8 +52,8 @@ Para eso tenemos la propiedad `str` que estudiaremos a continuación.
 
 >
 
-- [**`Ejemplo 2`**](Ejemplo-02/manipulacion_de_strings.ipynb)
-- [**`Reto 2`**](Reto-02/manipulacion_de_strings.ipynb)
+- [**`Ejemplo 2`**](Ejemplo-02/README.md)
+- [**`Reto 2`**](Reto-02/README.md)
 
 ---
 
@@ -67,8 +67,8 @@ Veámoslo en acción.
 
 >
 
-- [**`Ejemplo 3`**](Ejemplo-03/map.ipynb)
-- [**`Reto 3`**](Reto-03/map.ipynb)
+- [**`Ejemplo 3`**](Ejemplo-03/README.md)
+- [**`Reto 3`**](Reto-03/README.md)
 
 ---
 
@@ -82,8 +82,8 @@ En `DataFrames` podemos usar este mismo método para aplicar funciones por filas
 
 >
 
-- [**`Ejemplo 4`**](Ejemplo-04/apply.ipynb)
-- [**`Reto 4`**](Reto-04/apply.ipynb)
+- [**`Ejemplo 4`**](Ejemplo-04/README.md)
+- [**`Reto 4`**](Reto-04/README.md)
 
 ---
 
@@ -97,8 +97,8 @@ Crear subconjuntos a partir de nuestro conjunto de datos es muy útil para enten
 
 >
 
-- [**`Ejemplo 5`**](Ejemplo-05/filtros.ipynb)
-- [**`Reto 5`**](Reto-05/filtros.ipynb)
+- [**`Ejemplo 5`**](Ejemplo-05/README.md)
+- [**`Reto 5`**](Reto-05/README.md)
 
 ---
 
@@ -110,8 +110,8 @@ Reordenar nuestros datos puede ayudarnos a entender mejor la distribución de nu
 
 >
 
-- [**`Ejemplo 6`**](Ejemplo-06/sort.ipynb)
-- [**`Reto 6`**](Reto-06/sort.ipynb)
+- [**`Ejemplo 6`**](Ejemplo-06/README.md)
+- [**`Reto 6`**](Reto-06/README.md)
 
 ---
 
