@@ -1,7 +1,9 @@
+# Sesión 07: Transformación, filtración y ordenamiento de datos
 
-## Sesión 07: Transformación, filtración y ordenamiento de datos
+<img src="https://raw.githubusercontent.com/beduExpert/Introduccion-a-Bases-de-Datos-Diciembre-2020/master/imagenes/pizarron.png" align="right" height="100" width="100" hspace="10">
+<div style="text-align: justify;">
 
-### 1. Objetivos
+## 1. Objetivos
 
 - Hacer casting de tipos de datos.
 - Manipular strings usando el módulo `str`.
@@ -9,11 +11,11 @@
 - Aplicar filtros a nuestros datos.
 - Ordenar nuestro dataset por columnas.
 
-### 2. Contenido
+## 2. Contenido
 
 ---
 
-<ins>Introducción</ins>
+### <ins>Introducción</ins>
 
 Hoy aprenderemos algunas técnicas para realizar transformación y reestructuración de datos.
 
@@ -25,7 +27,7 @@ La transformación es muy útil para limpiar nuestro dataset y para dejarlo prep
 
 ---
 
-<ins>Casting</ins>
+### <ins>Casting</ins>
 
 El primer tipo de transformación que veremos es el `casting`. `Casting` significa convertir un dato de un tipo de dato a otro tipo de dato. O sea, convertir una `string` a un `int`, un `int` a un `float`, un `int` a un `datetime`, etc.
 
@@ -35,12 +37,12 @@ Veremos algunas técnicas parar hacer `casting` manualmente en los casos en los 
 
 >
 
-[**`Ejemplo 1`**](Ejemplo-01/casting.ipynb)
-[**`Reto 1`**](Reto-01/casting.ipynb)
+- [**`Ejemplo 1`**](Ejemplo-01/casting.ipynb)
+- [**`Reto 1`**](Reto-01/casting.ipynb)
 
 ---
 
-<ins>Manipulación de `strings`</ins>
+### <ins>Manipulación de `strings`</ins>
 
 Manipular `strings` es todo un tema por sí mismo. Aprender a usar las herramientas de manipulación de `strings` es muy importante puesto que nos permite trabajar con datos no estructurados. Los datos no estructurados son básicamente secuencias de caracteres tipo texto.
 
@@ -50,12 +52,12 @@ Para eso tenemos la propiedad `str` que estudiaremos a continuación.
 
 >
 
-[**`Ejemplo 2`**](Ejemplo-02/manipulacion_de_strings.ipynb)
-[**`Reto 2`**](Reto-02/manipulacion_de_strings.ipynb)
+- [**`Ejemplo 2`**](Ejemplo-02/manipulacion_de_strings.ipynb)
+- [**`Reto 2`**](Reto-02/manipulacion_de_strings.ipynb)
 
 ---
 
-<ins>`map`</ins>
+### <ins>`map`</ins>
 
 Otra cosa que podemos hacer es usar un mapeo de un dato a otro. Esto significa que le damos a `pandas` algún objeto que contenga una correspondencia entre un dato y otro para que realice una conversión.
 
@@ -65,12 +67,12 @@ Veámoslo en acción.
 
 >
 
-[**`Ejemplo 3`**](Ejemplo-03/map.ipynb)
-[**`Reto 3`**](Reto-03/map.ipynb)
+- [**`Ejemplo 3`**](Ejemplo-03/map.ipynb)
+- [**`Reto 3`**](Reto-03/map.ipynb)
 
 ---
 
-<ins>`apply`</ins>
+### <ins>`apply`</ins>
 
 Otra manera de crear correspondencias es aplicando una función a nuestro `DataFrame` o `Serie` usando `apply`.
 
@@ -80,12 +82,12 @@ En `DataFrames` podemos usar este mismo método para aplicar funciones por filas
 
 >
 
-[**`Ejemplo 4`**](Ejemplo-04/apply.ipynb)
-[**`Reto 4`**](Reto-04/apply.ipynb)
+- [**`Ejemplo 4`**](Ejemplo-04/apply.ipynb)
+- [**`Reto 4`**](Reto-04/apply.ipynb)
 
 ---
 
-<ins>Filtros</ins>
+### <ins>Filtros</ins>
 
 Los filtros nos sirven para obtener subconjuntos de datos que tengan una cierta característica que necesitamos. Podemos "filtrar" solamente los datos que deseamos y dejar fuera datos indeseables.
 
@@ -95,12 +97,12 @@ Crear subconjuntos a partir de nuestro conjunto de datos es muy útil para enten
 
 >
 
-[**`Ejemplo 5`**](Ejemplo-05/filtros.ipynb)
-[**`Reto 5`**](Reto-05/filtros.ipynb)
+- [**`Ejemplo 5`**](Ejemplo-05/filtros.ipynb)
+- [**`Reto 5`**](Reto-05/filtros.ipynb)
 
 ---
 
-<ins>`sort`</ins>
+### <ins>`sort`</ins>
 
 También podemos reordenar nuestros datos usando el método `sort_values`. Reordenamos nuestro conjunto de datos tomando en cuenta el valor que cada fila tenga en una columna dada. Podemos ordenarlos ascendente o descentemente.
 
@@ -108,8 +110,8 @@ Reordenar nuestros datos puede ayudarnos a entender mejor la distribución de nu
 
 >
 
-[**`Ejemplo 6`**](Ejemplo-06/sort.ipynb)
-[**`Reto 6`**](Reto-06/sort.ipynb)
+- [**`Ejemplo 6`**](Ejemplo-06/sort.ipynb)
+- [**`Reto 6`**](Reto-06/sort.ipynb)
 
 ---
 
