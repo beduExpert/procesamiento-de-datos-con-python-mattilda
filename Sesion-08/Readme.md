@@ -18,7 +18,7 @@
 
 ### <ins>Introducción</ins>
 
-Bienvenido a la última sesión de este módulo. El día de hoy cerraremos con 3 temas que son esenciales para redondear tu educación como procesador de datos:
+Bienvenido a la última sesión de este módulo. El día de hoy cerraremos con 4 temas que son esenciales para redondear tu educación como procesador de datos:
 
 1. Bases de datos, cómo conectarnos a ellas y cómo obtener información de ellas
 2. `merge` y cómo unir `DataFrames` al estilo de un `join` de SQL
@@ -33,9 +33,9 @@ Bienvenido a la última sesión de este módulo. El día de hoy cerraremos con 3
 
 Como vimos en el Prework, los sistemas de gestión de bases de datos (como MySQL, PostgreSQL, MariaDB, MongoDB, etc) son una gran manera de almacenar grandes (o pequeñas) cantidades de datos y compartirlas con muchas personas.
 
-Normalmente, estas bases de datos van a estar almacenadas en algún servidor al que todos los integrantes de tu equipo van a tener acceso. Vamos a conectarnos a una base de datos remota usando la librería `mysql-connector`.
+Normalmente, estas bases de datos van a estar almacenadas en algún servidor al que todos los integrantes de tu equipo van a tener acceso. Vamos a conectarnos a una base de datos remota usando la biblioteca `mysql-connector`.
 
-Antes que nada, si no lo has hecho ya, instala la librería desde Google Colab:
+Antes que nada, si no lo has hecho ya, instala la biblioteca desde Google Colab:
 
 `!pip install mysql-connector-python`
 
