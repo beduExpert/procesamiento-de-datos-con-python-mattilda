@@ -86,6 +86,16 @@ Para esto podemos utilizar el método `groupby`, que nos permite agrupar nuestro
 
 ---
 
+### <ins>Lectura de archivos `.xls`</div>
+
+Un formato muy común con el que trabajamos los científicos de datos es el formato `.xls` debido principalmente a que muchas empresas o clientes continúan sin automatizar procesos o explotar los beneficios de los sistemas gestores de bases de datos. Aunque en general el sueño es que no se dependa en gran medida de estos formatos, sabemos que si o sí te encontrarás con situaciones que requieran manejar de estos archivos.
+
+En este ejemplo, veremos una forma de abrir y procesar estos archivos de forma sencilla.
+
+- [**`Ejemplo 5`**](Ejemplo-05/README.md)
+
+---
+
 Ahora sí viene lo bueno. Los siguientes 3 Retos serán exploraciones mucho más profundas de todo lo que hemos visto el día de hoy y en sesiones anteriores. Si los encuentras muy difíciles, recuerda que siempre puedes compartir tus dudas con tus compañeros y con la experta. ¡Mucha suerte!
 
 - [**`Reto 4`**](Reto-04/README.md)
